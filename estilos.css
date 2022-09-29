@@ -1,0 +1,123 @@
+* h1{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #89F0A6;
+    /*background-image: url(img/patron.jpg);*/
+}
+/* Ordenes generales*/
+.contenedor{
+    width: 80%;
+    margin: auto; /*auto lo centra automaticamente*/
+    overflow: hidden;
+}
+.btn_news{
+    height: 32px;
+    background-color: #9DA4F5;
+    border: 0;
+    padding: 0 20px;
+    color: beige;
+
+}
+
+/* header*/
+header{
+    background-color: #64F08B;
+    color: #a01c5a;
+    padding-top:30px; 
+    min-height: 70px;
+    border-bottom: #9DA4F5 5px solid;
+    
+}
+header a{
+    color:#a01c5a;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+header li{
+    display: inline;
+    float: left;
+    padding: 0 20px;
+}
+header #logo{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin: 10px;
+}
+header a:hover{
+    color: #F59393;
+    font-weight: 400;
+}
+
+header .marcado{
+    color: antiquewhite;
+    font-weight: 900;
+}
+
+/* Vidriera */
+#vidriera{
+    min-height: 400px;
+    background-image: url(img/vidriera_dark.jpg);
+    background-size: cover;
+    background-position: center;
+    color: beige;
+
+    text-align: center;
+}
+
+#vidriera h1{
+    font-size: 60px;
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+
+#vidriera p{
+    font-size: 25px;
+}
+
+/* Newsletter */
+#newsletter{
+    padding: 15px;
+    background-color: cadetblue;
+    color: beige;
+}
+
+#newsletter h3{
+    float: left;
+    margin-top: 5px;
+}
+
+#newsletter form{
+    float: right;
+}
+
+#newsletter input{
+    padding: 4px;
+    height: 20px;
+    width: 200px;
+}
+
+/* Boxes */
+#boxes{
+    margin-top: 20px;
+
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    
+}
+#boxes .box img{
+    width: 150px;
+}
